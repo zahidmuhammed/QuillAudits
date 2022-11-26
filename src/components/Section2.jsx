@@ -1,4 +1,7 @@
 import Lottie from 'react-lottie-player';
+import { GiFeather } from 'react-icons/gi';
+import { FaEthereum } from 'react-icons/fa';
+
 import Pathfund from '../images/pathfund.png';
 import Slide1 from '../animations/21811.json';
 import Slide2 from '../animations/19172.json';
@@ -16,7 +19,7 @@ const Section2 = () => {
 					<div className="text-[#391400] text-2xl font-semibold pt-2 pb-4">
 						Partners
 					</div>
-					<div className="flex justify-between">
+					<div className="grid grid-cols-2 md:flex justify-between">
 						<div className="h-20 w-28">
 							<img src={Pathfund} alt="" />
 						</div>
@@ -37,8 +40,8 @@ const Section2 = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex  my-16">
-					<div className="w-1/2 flex justify-center items-center">
+				<div className="flex flex-col md:flex-row my-16">
+					<div className="md:w-1/2 flex justify-center items-center">
 						<Lottie
 							loop
 							animationData={Slide1}
@@ -46,7 +49,7 @@ const Section2 = () => {
 							style={{ width: 350, height: 350 }}
 						/>
 					</div>
-					<div className="w-1/2 flex flex-col justify-center">
+					<div className="md:w-1/2 flex flex-col justify-center">
 						<div className="text-[#2D83EE] text-sm font-semibold">
 							SERVICE
 						</div>
@@ -59,12 +62,26 @@ const Section2 = () => {
 							code for security flaws and potential
 							vulnerabilities.
 						</div>
-						<div className="text-[#391400] text-sm my-3">
+						<div className="text-[#391400] text-sm my-3 ">
+							<FaEthereum className="inline-block mr-1" />
 							Ethereum
 							<br />
+							<FaEthereum
+								color="violet"
+								className="inline-block mr-1"
+							/>
 							Polygon <br />
+							<FaEthereum
+								color="#F9CC11"
+								className="inline-block mr-1"
+							/>
 							BSC <br />
+							<FaEthereum
+								color="blue"
+								className="inline-block mr-1"
+							/>
 							Solana <br />
+							<FaEthereum className="inline-block mr-1" />
 							EOS
 						</div>
 						<div className="cursor-pointer text-sm drop-shadow-md text-white max-w-min py-1 px-10 rounded-md bg-gradient-to-r from-[#4F37EE] to-[#7184FD]">
@@ -72,8 +89,8 @@ const Section2 = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex  my-16">
-					<div className="w-1/2 flex flex-col justify-center pl-12">
+				<div className="flex flex-col md:flex-row my-16">
+					<div className="md:w-1/2 order-2 md:order-1 flex flex-col justify-center md:pl-12">
 						<div className="text-[#2D83EE] text-sm font-semibold">
 							SERVICE
 						</div>
@@ -90,7 +107,7 @@ const Section2 = () => {
 							Explore
 						</div>
 					</div>
-					<div className="w-1/2 flex justify-center items-center">
+					<div className="md:w-1/2 order-1 md:order-2 flex justify-center items-center">
 						<Lottie
 							loop
 							animationData={Slide2}
@@ -99,8 +116,8 @@ const Section2 = () => {
 						/>
 					</div>
 				</div>
-				<div className="flex  my-16">
-					<div className="w-1/2 flex justify-center items-center">
+				<div className="flex flex-col md:flex-col  my-16">
+					<div className="md:w-1/2 flex justify-center items-center">
 						<Lottie
 							loop
 							animationData={Slide3}
@@ -108,7 +125,7 @@ const Section2 = () => {
 							style={{ width: 350, height: 350 }}
 						/>
 					</div>
-					<div className="w-1/2 flex flex-col justify-center">
+					<div className="md:w-1/2 flex flex-col justify-center">
 						<div className="text-[#2D83EE] text-sm font-semibold">
 							SERVICE
 						</div>
@@ -121,9 +138,21 @@ const Section2 = () => {
 							critical possibilities.
 						</div>
 						<div className="text-[#391400] text-sm my-3">
+							<GiFeather
+								color="#527EF5"
+								className="inline-block mr-2"
+							/>
 							DeFi Due Diligence
 							<br />
+							<GiFeather
+								color="#527EF5"
+								className="inline-block mr-2"
+							/>
 							NFT Due Diligence <br />
+							<GiFeather
+								color="#527EF5"
+								className="inline-block mr-2"
+							/>
 							Rug Pull Due Diligence <br />
 						</div>
 						<div className="cursor-pointer text-sm drop-shadow-md text-white max-w-min py-1 px-10 rounded-md bg-gradient-to-r from-[#4F37EE] to-[#7184FD]">

@@ -24,7 +24,7 @@ const SendEmail = () => {
 					<div className="text-sm">
 						<input
 							type="text"
-							className="bg-[#0000004D] text-slate-300 outline-0 w-2/3 py-2 px-6 rounded-md"
+							className="bg-[#0000004D] text-slate-300 outline-0 md:w-2/3 py-2 px-6 rounded-md"
 							placeholder="youremail@gmail.com"
 							onFocus={() => {
 								setSubmitMail(false);
@@ -36,7 +36,7 @@ const SendEmail = () => {
 					</div>
 					{submitMail && (
 						<div className="text-sm my-2 flex">
-							<span className="inline-block pr-3 flex items-center">
+							<span className="pr-3 flex items-center">
 								<BsFillCheckCircleFill
 									size={16}
 									color="green"

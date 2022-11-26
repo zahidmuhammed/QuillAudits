@@ -3,9 +3,9 @@ import JobsLogo from '../images/jobslogo.svg';
 const Jobs = () => {
 	return (
 		<div className="w-full flex justify-center my-12">
-			<div className="w-[60vw] flex justify-center">
-				<div className="flex bg-[#2D83EE] rounded-xl text-white">
-					<div className="w-1/2 p-12 flex flex-col justify-center">
+			<div className="w-[90vw] md:w-[60vw] flex justify-center">
+				<div className="flex flex-col md:flex-row bg-[#2D83EE] rounded-xl text-white">
+					<div className="md:w-1/2 p-12 flex flex-col justify-center">
 						<div className="text-3xl font-semibold">
 							Join Hands With us to secure Web3 Together
 						</div>
@@ -18,7 +18,7 @@ const Jobs = () => {
 							APPLY NOW!
 						</div>
 					</div>
-					<div className="w-1/2  flex justify-center p-8">
+					<div className="md:w-1/2 flex justify-center p-8">
 						<div className="h-60 w-60">
 							<img src={JobsLogo} alt="" />
 						</div>

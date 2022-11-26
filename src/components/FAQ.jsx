@@ -9,23 +9,23 @@ const FAQ = () => {
 
 	return (
 		<div className="w-full flex justify-center">
-			<div className="w-[80vw] flex">
-				<div className="w-1/2 flex flex-col justify-start">
+			<div className="w-[80vw] flex flex-col md:flex-row">
+				<div className="md:w-1/2 flex flex-col justify-start">
 					<div className="text-[#2D83EE] text-sm font-semibold">
 						FAQ
 					</div>
-					<div className="text-2xl font-semibold w-1/2 my-4">
+					<div className="text-2xl font-semibold md:w-1/2 my-4">
 						Frequently Asked Questions
 					</div>
 					<div className="text-sm w-3/4">
 						Visit our help center to clear out any second thoughts
 						that you may have regarding our services.
 					</div>
-					<div className="mt-6 border-0 drop-shadow-lg bg-gradient-to-r from-[#4F37EE] to-[#7184FD] text-white px-6 py-1 max-w-min whitespace-nowrap rounded-md cursor-pointer">
+					<div className="my-6 border-0 drop-shadow-lg bg-gradient-to-r from-[#4F37EE] to-[#7184FD] text-white px-6 py-1 max-w-min whitespace-nowrap rounded-md cursor-pointer">
 						Contact Us
 					</div>
 				</div>
-				<div className="w-1/2 border rounded-md border-[#2D83EE]">
+				<div className="md:w-1/2 border rounded-md border-[#2D83EE]">
 					<div className="border-b border-[#2D83EE] p-4 rounded-md">
 						<div className="flex justify-between">
 							<div className="text-base font-semibold">

@@ -1,7 +1,7 @@
 import Navigation from './components/Navigation';
 import Section1 from './components/Section1';
 import Section2 from './components/Section2';
-import Section3 from './components/Section3';
+import Portfolio from './components/Portfolio';
 import Section4 from './components/Section4';
 import Mentions from './components/Mentions';
 import Testimonials from './components/Testimonials';
@@ -17,7 +17,7 @@ const App = () => {
 			<Navigation />
 			<Section1 />
 			<Section2 />
-			<Section3 />
+			<Portfolio />
 			<Section4 />
 			<Mentions />
 			<Testimonials />

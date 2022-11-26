@@ -18,8 +18,8 @@ import YTLogo from '../images/yt_logo@2x.png';
 const Footer = () => {
 	return (
 		<div className="w-full bg-[#28293E] flex flex-col justify-center items-center">
-			<div className="w-[80vw] text-white flex my-6 gap-8 text-sm">
-				<div className="w-1/4">
+			<div className="w-[80vw] text-white flex flex-col md:flex-row my-6 gap-8 text-sm">
+				<div className="md:w-1/4">
 					<div className="font-bold">Parent Company</div>
 					<div className="h-10 w-36 flex mt-3">
 						<img src={QuillHashFooter} alt="" />
@@ -28,7 +28,7 @@ const Footer = () => {
 						Quillhash delivers enterprise grade blockchain
 						technology to leading companies worldwide.
 					</div>
-					<div className="bg-white text-black px-3 py-1 flex gap-3 max-w-min items-center">
+					<div className="bg-white hidden text-black px-3 py-1 md:flex gap-3 max-w-min items-center">
 						<div className="h-auto w-10">
 							<img src={UkFlag} alt="" className="" />
 						</div>
@@ -37,7 +37,7 @@ const Footer = () => {
 							<BiChevronDown />
 						</div>
 					</div>
-					<div className="flex p-3 gap-3">
+					<div className="md:flex p-3 gap-3 hidden">
 						<div className="h-auto w-10">
 							<img src={JpnFlag} alt="" className="" />
 						</div>
@@ -46,7 +46,7 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<div className="w-2/4">
+				<div className="md:w-2/4">
 					<div className="flex">
 						<div className="w-1/2">
 							<div className="font-bold">Explore</div>
@@ -78,7 +78,7 @@ const Footer = () => {
 						<div className="font-bold text-base">
 							Join our Journey
 						</div>
-						<div className="flex gap-2 mt-4">
+						<div className="grid grid-cols-3 md:flex gap-2 mt-4">
 							<div className="h-10 w-10 cursor-pointer">
 								<img src={FbLogo} alt="" />
 							</div>
@@ -109,7 +109,7 @@ const Footer = () => {
 						</div>
 					</div>
 				</div>
-				<div className="w-1/4">
+				<div className="md:w-1/4">
 					<div className="font-bold">Contact Us</div>
 					<div className="my-4">
 						LG 006, DLF Grand Mall, Mehrauli Gurgaon Road, Near
