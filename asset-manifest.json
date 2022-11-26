@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/QuillAudits/static/css/main.b7d3503a.css",
+    "main.js": "/QuillAudits/static/js/main.828aa836.js",
+    "static/js/787.f07c66f5.chunk.js": "/QuillAudits/static/js/787.f07c66f5.chunk.js",
+    "static/media/Group_42280@2x.png": "/QuillAudits/static/media/Group_42280@2x.8d56c1b297333e9cbf20.png",
+    "static/media/blogPost@2x.png": "/QuillAudits/static/media/blogPost@2x.800496a8de56128ea330.png",
+    "static/media/book@2x.png": "/QuillAudits/static/media/book@2x.146010a2d2c8d35ffc77.png",
+    "static/media/ctofficial-1280x720@x.png": "/QuillAudits/static/media/ctofficial-1280x720@x.ae99307abf9c73b4e365.png",
+    "static/media/Invest-in-Blockchain-web-logo-copy-4@2x.png": "/QuillAudits/static/media/Invest-in-Blockchain-web-logo-copy-4@2x.9076486ee53a73a03cbf.png",
+    "static/media/Product_Hunt_Logo.png": "/QuillAudits/static/media/Product_Hunt_Logo.78a6a0e18f01e25d6cc7.png",
+    "static/media/Mask@new.png": "/QuillAudits/static/media/Mask@new.512e428661f0f3d963f8.png",
+    "static/media/StackOS.png": "/QuillAudits/static/media/StackOS.45cf5c65bbf0f0c3b43f.png",
+    "static/media/Coincrunch_logo_640_416@2x.png": "/QuillAudits/static/media/Coincrunch_logo_640_416@2x.a88f79d7dd0a1f76b148.png",
+    "static/media/jobslogo.svg": "/QuillAudits/static/media/jobslogo.ba9142915ce3c1fdbcc0a28ebd1e0634.svg",
+    "static/media/hn-logo@2x.png": "/QuillAudits/static/media/hn-logo@2x.c06ece1503c25d80b8ad.png",
+    "static/media/sendMail.svg": "/QuillAudits/static/media/sendMail.f91e32e94222d44e0c1dfbc8959ae690.svg",
+    "static/media/Quill_audits_logo.svg": "/QuillAudits/static/media/Quill_audits_logo.f66e55527852e5737ce5153941c2be30.svg",
+    "static/media/HashingBits.svg": "/QuillAudits/static/media/HashingBits.5b2cffc6111a6818d5f69c56181a20f7.svg",
+    "static/media/QuillHashFooter.svg": "/QuillAudits/static/media/QuillHashFooter.f6a8e4058b28b7e735e2229edb295625.svg",
+    "index.html": "/QuillAudits/index.html",
+    "main.b7d3503a.css.map": "/QuillAudits/static/css/main.b7d3503a.css.map",
+    "main.828aa836.js.map": "/QuillAudits/static/js/main.828aa836.js.map",
+    "787.f07c66f5.chunk.js.map": "/QuillAudits/static/js/787.f07c66f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7d3503a.css",
+    "static/js/main.828aa836.js"
+  ]
+}
