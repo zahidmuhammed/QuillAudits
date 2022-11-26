@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import Navigation from './components/Navigation';
+import Section1 from './components/Section1';
+import Section2 from './components/Section2';
+import Section3 from './components/Section3';
+import Section4 from './components/Section4';
+import Mentions from './components/Mentions';
+import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
+import Blog from './components/Blog';
+import SendEmail from './components/SendEmail';
+import Jobs from './components/Jobs';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	return (
+		<div className="flex flex-col">
+			<Navigation />
+			<Section1 />
+			<Section2 />
+			<Section3 />
+			<Section4 />
+			<Mentions />
+			<Testimonials />
+			<FAQ />
+			<Blog />
+			<SendEmail />
+			<Jobs />
+			<Footer />
+		</div>
+	);
+};
 
 export default App;
