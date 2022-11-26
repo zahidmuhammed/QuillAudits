@@ -116,7 +116,7 @@ const Section2 = () => {
 						/>
 					</div>
 				</div>
-				<div className="flex flex-col md:flex-col  my-16">
+				<div className="flex flex-col md:flex-row  my-16">
 					<div className="md:w-1/2 flex justify-center items-center">
 						<Lottie
 							loop

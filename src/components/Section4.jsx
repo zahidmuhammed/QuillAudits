@@ -13,7 +13,7 @@ const Section4 = () => {
 						Talk to an Expert
 					</div>
 				</div>
-				<div className="md:w-1/2 text-[#2D83EE] my-8 md:my-0 text-xs md:text-base">
+				<div className="w-4/5 md:w-1/2 text-[#2D83EE] my-8 md:my-0 text-xs md:text-base">
 					<div className="w-3/4 text-center py-3 px-6 rounded-md border border-[#2D83EE] opacity-50 ml-28">
 						Smart Contract Audits Build Social Authority
 					</div>

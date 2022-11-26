@@ -11,7 +11,7 @@ const Blog = () => {
 					<div className="text-xl font-semibold">
 						Catch up on the news
 					</div>
-					<div className="border-0 drop-shadow-lg bg-gradient-to-r from-[#4F37EE] to-[#7184FD] text-white px-6 py-1 max-w-min whitespace-nowrap rounded-md cursor-pointer">
+					<div className="border-0 flex items-center drop-shadow-lg bg-gradient-to-r from-[#4F37EE] to-[#7184FD] text-white px-6 py-1 max-w-min whitespace-nowrap rounded-md cursor-pointer">
 						Read More
 					</div>
 				</div>
